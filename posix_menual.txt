@@ -1,9 +1,25 @@
--directory관련
+-directory관련-
 pwd : print working directory
 cd : change directory
 cd / : root directory
 cd ~ : home directory
-ls : list(directory or file list) , ls -l(자세히 보기), ls -a(.file명 : 감춤 파일->감춤파일 표시), ls -la
+cd ./ : 현재 directory
+cd ../ : 부모 directory
+
+-ls : list(directory or file list) , ls -l(자세히 보기), ls -a(.file명 : 감춤 파일->감춤파일 표시), ls -la, ls -R (이하 모든 directory도 표시)
 mkdir : directory만들기
-mv(file 혹은 directory 이동, 변경)
+
+mv(move (rename)file 혹은 directory 이동, 변경)
 mv 기존 file or directory명 변경할 이름(예 : mv dummy dummy2)
+
+rm(remove)
+rm file명, rm -r directory명
+
+-file관련-
+text editor : nano, vim ...
+cat : file 내용 보기
+touch : 빈 file만들기
+mv : 이름변경 예) mv a.txt b.txt
+rm : 삭제
+
+-순서대로 실행-
