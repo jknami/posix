@@ -1,0 +1,9 @@
+-directory관련
+pwd : print working directory
+cd : change directory
+cd / : root directory
+cd ~ : home directory
+ls : list(directory or file list) , ls -l(자세히 보기), ls -a(.file명 : 감춤 파일->감춤파일 표시), ls -la
+mkdir : directory만들기
+mv(file 혹은 directory 이동, 변경)
+mv 기존 file or directory명 변경할 이름(예 : mv dummy dummy2)
