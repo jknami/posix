@@ -1,7 +1,9 @@
+PORTABLE OPERATING SYSTEM INTERFACE(UNIX, LINUX, MacOs)
+git을 pc에 설치하면, git-bash가 설치된다.
 -directory관련-
 pwd : print working directory
 cd : change directory
-cd / : root directory
+cd / : root directory(절대경로)
 cd ~ : home directory
 cd ./ : 현재 directory
 cd ../ : 부모 directory
@@ -23,3 +25,7 @@ mv : 이름변경 예) mv a.txt b.txt
 rm : 삭제
 
 -순서대로 실행-
+명령 사이에 ';' :순서대로 명령을 실행한다. 단 오류가 발생하더라도 무시하고 다음 실행
+명령 사이에 '&&" : 순서대로 명령을 실행하지만 오류가 발생하면 멈춤
+mkdir dummy; cd dummy; touch hello.txt; cd..; ls -R 
+mkdir dummy&& cd dummy&& touch hello.txt&& cd..; ls -R 
