@@ -15,7 +15,7 @@ mv(move (rename)file 혹은 directory 이동, 변경)
 mv 기존 file or directory명 변경할 이름(예 : mv dummy dummy2)
 
 rm(remove)
-rm file명, rm -r directory명
+rm file명, rm -r directory명.
 
 -file관련-
 text editor : nano, vim ...
